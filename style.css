@@ -48,3 +48,46 @@ h1{
   
 
 } */
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+
+
+.section {
+ margin-left: auto; 
+ margin-right: auto;
+ position: relative;
+} 
+
+.center {
+ position: absolute;
+ /* top: 50%; */
+ left: 35%;
+ /* margin-top: -50px; */
+ margin-left: -50px ;
+ width: auto;
+ /* height: 100px; */
+}
+
+
+	
